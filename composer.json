@@ -13,6 +13,11 @@
             "Robin\\Generator\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Robin\\Generator\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "aliases": {
