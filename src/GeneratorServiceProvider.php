@@ -21,7 +21,7 @@ class GeneratorServiceProvider extends ServiceProvider
     public function register()
     {
          $this->app->singleton('generator', function ($app) {
-            return new Generator($app['session'], $app['config']);
+            return new Generator();
         });
     }
 

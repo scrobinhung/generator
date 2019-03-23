@@ -5,7 +5,7 @@ namespace Robin\Generator;
 class Generator
 {
 
-    public static function get()
+    public function geta()
     {
         return 'hello, world!';
     }
