@@ -1,0 +1,21 @@
+{
+    "name": "robin/generator",
+    "description": "code generator for laravel",
+    "authors": [
+        {
+            "name": "robin",
+            "email": "scrobinhung@163.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "aliases": {
+                "Generator": "Robin\\Generator\\Facades\\Generator"
+            },
+            "providers": [
+                "Robin\\Generator\\GeneratorServiceProvider"
+            ]
+        }
+    }
+}
