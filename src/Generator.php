@@ -7,7 +7,7 @@ class Generator
 
     public static function get()
     {
-        return 'hello, world';
+        return 'hello, world!';
     }
     
 }
