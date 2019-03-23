@@ -8,6 +8,11 @@
         }
     ],
     "require": {},
+    "autoload": {
+        "psr-4": {
+            "Robin\\Generator\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "aliases": {
